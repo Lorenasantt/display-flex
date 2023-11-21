@@ -17,3 +17,37 @@ section{
     width: 30rem;
     text-align: center;
 }
+
+.samsung{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; /*alterar a direção do eixo principal*/
+    justify-content: center;
+    gap: 4rem;
+
+    margin-bottom: 1rem; 
+}
+
+.samsung img{
+    width: 20rem;
+}
+
+.samsung p{
+    width: 30rem;
+    text-align: center;
+}
+
+.formulário{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.formulário div{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulário form{
+    width: 30rem;
+}
